@@ -4,5 +4,5 @@ Lifxdesk is a small python script for chaging the colour of your Lifx lamps base
 
 Example usage: python run.py -w 0 -t [apikey]
 
-Further options may be implemented later. For now, Lifxdesk uses the colours from (Pywal)[https://github.com/dylanaraps/wal].
+Further options may be implemented later. For now, Lifxdesk uses the colours from [Pywal](https://github.com/dylanaraps/wal).
 
