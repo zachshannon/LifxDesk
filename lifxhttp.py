@@ -89,7 +89,7 @@ class Lightable:
         self.con._request_post('https://api.lifx.com/v1/lights/' + self.selector + '/toggle')
 
     def set_color(self, color, duration):
-       'Sets color - using html hex code'
+       'Sets color - using a color object, over a duration'
        my_color = ('hue:' + str(int(color.hue))
                             + ' saturation:'
                             + str(color.saturation)
